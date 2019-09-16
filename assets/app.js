@@ -10,3 +10,8 @@ var config = {
 
   // Get a reference to the database service
   var database = firebase.database();
+
+  $("#submitButton").on("click",function(){
+    var trainName = $("#trainName").val().trim()
+
+  })
